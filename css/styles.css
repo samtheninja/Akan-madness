@@ -1,7 +1,8 @@
 .jumbotron  {
-  padding-left: 400px;
-  padding-right: 405px;
+  /* padding-left: 400px;
+  padding-right: 405px; */
   background-color: red;
+  text-align: center;
 }
 .row4  {
   text-align: center;
@@ -19,7 +20,10 @@
   align-items: center;
   
 }
-.submit {
+#results{
+  text-align: center;
+}
+/* .submit {
   font-style: bold;
   font-family: cursive;
-}
+} */
