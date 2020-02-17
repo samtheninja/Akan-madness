@@ -42,7 +42,7 @@ function akan() {
   ]
 
   if (cc < 0 || cc > 20) {
-    alert("invalid century ")
+    alert("invalid century")
   }
   else if (yy < 0 || yy > 99) {
     alert("invalid year")
