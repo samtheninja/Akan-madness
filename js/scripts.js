@@ -7,13 +7,13 @@ function akan() {
   var gender=parseInt(document.getElementById("gender").value)
 
 
-  var number = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7
+  var number = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
 
-  var daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+  var daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 
-  var maleNames = ["kwasi","kwadwo","kwabena","Kwaku","Yaw","Kofi","Kwame"]
+  var maleNames = ["kwasi","kwadwo","kwabena","Kwaku","Yaw","Kofi","Kwame"];
 
-  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
   if (cc < 0 || cc > 20) {
     alert("invalid century");
@@ -35,64 +35,50 @@ function akan() {
     alert("select gender");
     return false;
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="sunday");{
+if (gender===1 && (daysOfWeek[number]==="sunday")) {
     document.getElementById("results").innerHTML="you were born on a sunday your akan name is " + maleNames[0];
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="monday");{
+else if (gender===1 && (daysOfWeek[number]==="monday")) {
     document.getElementById("results").innerHTML="you were born on a monday your akan name is " + maleNames[1];
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="tuesday");{
+else if (gender===1 && (daysOfWeek[number]==="tuesday")) {
     document.getElementById("results").innerHTML="you were born on a tuesday your akan name is " + maleNames[2];
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="wednesday");{
+else if (gender===1 && (daysOfWeek[number]==="wednesday")) {
     document.getElementById("results").innerHTML="you were born on a wednesday your akan name is " + maleNames[3];
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="thursday");{
+else if (gender===1 && (daysOfWeek[number]==="thursday")) {
     document.getElementById("results").innerHTML="you were born on a thursday your akan name is " + maleNames[4];
 }
-if (gender===1) {
-}if (daysOfWeek[number]==="friday");{
+else if (gender===1 && (daysOfWeek[number]==="friday")) {
     document.getElementById("results").innerHTML="you were born on a friday your akan name is " + maleNames[5];
-}
-if (gender===1) {
-}if (daysOfWeek[number]==="saturday");{
+} 
+else if(gender===1 && (daysOfWeek[number]==="saturday")) {
     document.getElementById("results").innerHTML="you were born on a saturday your akan name is " + maleNames[6];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="sunday");{
+else if (gender===2 && (daysOfWeek[number]==="sunday")) {
     document.getElementById("results").innerHTML="you were born on a sunday your akan name is " + femaleNames[0];
 }
-}
-if (gender===2) {
-}if (daysOfWeek[number]==="sunday");{
+
+else if (gender===2 && (daysOfWeek[number]==="monday")) {
   document.getElementById("results").innerHTML="you were born on a monday your akan name is " + femaleNames[1];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="monday");{
+else if (gender===2 && (daysOfWeek[number]==="tuesday")) {
   document.getElementById("results").innerHTML="you were born on a tuesday your akan name is " + femaleNames[2];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="tuesday");{
+else if (gender===2 && (daysOfWeek[number]==="wednesday")) {
   document.getElementById("results").innerHTML="you were born on a wednesday your akan name is " + femaleNames[3];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="wednesday");{
+else if (gender===2 && (daysOfWeek[number]==="thursday")) {
   document.getElementById("results").innerHTML="you were born on a thursday your akan name is " + femaleNames[4];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="thursday");{
+else if (gender===2 && (daysOfWeek[number]==="friday")) {
   document.getElementById("results").innerHTML="you were born on a friday your akan name is " + femaleNames[5];
 }
-if (gender===2) {
-}if (daysOfWeek[number]==="friday");{
+else if (gender===2 && (daysOfWeek[number]==="saturday")) {
   document.getElementById("results").innerHTML="you were born on a saturday your akan name is " + femaleNames[6];
 }
 
+}
 
-  // // alert('gender '+gender)
 
