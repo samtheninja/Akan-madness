@@ -15,4 +15,4 @@
 *{none, feel free to use this code however you choose.}*
 Copyright (c) {year} **{samtheninja.inc}**
 ### link
-* {https://samtheninja.github.io/Akan-madness/.}
+* {https://samtheninja.github.io/Akan-madness/ .}
