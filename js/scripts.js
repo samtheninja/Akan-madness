@@ -4,7 +4,9 @@ function akan() {
   var mm = parseInt(document.getElementById("mm").value)
   var dd = parseInt(document.getElementById("dd").value)
 
-  var gender = document.getElementById("gender")
+  var gender = document.getElementById("gender").value
+  var gender = document.getElementById("gender").value
+  var gender = document.getElementById("gender").value
 
 
   var number = parseFloat(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7
