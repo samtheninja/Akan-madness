@@ -54,7 +54,7 @@ function akan() {
     alert("invalid day ")
   }
   else if (gender !== "male" && gender !== "female") {
-    alert("please enter gender")
+    alert("please  enter gender")
   }
 
 }
