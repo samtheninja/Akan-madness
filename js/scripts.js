@@ -51,7 +51,7 @@ function akan() {
     alert("invalid month")
   }
   else if (dd <= 0 || dd > 31) {
-    alert("invalid day")
+    alert("invalid day ")
   }
   else if (gender !== "male" && gender !== "female") {
     alert("please enter gender")
