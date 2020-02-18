@@ -21,5 +21,5 @@ Copyright (c) {year} **{samtheninja.inc}**
 ## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| empty input form | century , year , month, day and gender  ONCLICK GENERATE **select** button |Display Akan-Name|
+| empty input form | century , year , month, day and gender  ONCLICK **GENERATE** |Display Akan-Name|
 
