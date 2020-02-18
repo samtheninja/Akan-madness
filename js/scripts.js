@@ -23,7 +23,7 @@ function akan() {
     alert("invalid year");
     return false;
   }
-  else if (mm <= 0 || mm > 20) {
+  else if (mm <= 0 || mm > 12) {
     alert("invalid month");
     return false
   }
@@ -31,6 +31,15 @@ function akan() {
     alert("invalid day");
     return false
   }
+  else if (mm===2 && dd>29) {
+    alert("invalid day");
+    return false
+  }
+  else if ((mm===2 || mm===4 || mm===6 || mm===8 || mm===10) && dd>30) {
+    alert("invalid day");
+    return false
+  }
+
   else if (gender===0) {
     alert("select gender");
     return false;
