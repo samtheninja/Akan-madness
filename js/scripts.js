@@ -15,8 +15,12 @@ function akan() {
 
   var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
-  if (cc < 0 || cc > 20) {
-    alert("invalid century");
+  if (cc < 0) {
+    alert("century cannot be less than zero");
+    return false;
+  }
+  else if (cc > 20) {
+    alert("that century is in the future");
     return false;
   }
   else if (yy < 0 || yy > 99) {
@@ -35,7 +39,7 @@ function akan() {
     alert("invalid day");
     return false
   }
-  else if ((mm===2 || mm===4 || mm===6 || mm===8 || mm===10) && dd>30) {
+  else if ((mm===2 || mm===4 || mm===6 || mm===9 || mm===11) && dd>30) {
     alert("invalid day");
     return false
   }
